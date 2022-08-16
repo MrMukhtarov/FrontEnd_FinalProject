@@ -1,0 +1,212 @@
+.homeslider .pictureText{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+.homeslider .img{
+    position: relative;
+    height: 90vh !important;
+    object-fit: cover !important;
+}
+.homeslider .icon {
+    background-color: grey;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.homeslider .span{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #333333;
+}
+.homeslider .h2{
+    font-weight: 800;
+    font-size: 60px;
+    color: #333333;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.homeslider a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #717fe0;
+    text-decoration: none;
+    transition: .3s;
+}
+.homeslider a:hover{
+    background-color: black;
+}
+@media (max-width: 576px) {
+    .homeslider .pictureText{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .homeslider .span{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        color: #333333;
+    }
+    .homeslider .h2{
+        font-weight: 800;
+        font-size: 20px;
+        color: #333333;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+    #second .all {
+        display: flex;
+        flex-direction: column;
+    }
+    #second .all .img{
+        margin-bottom: 30px;
+    }
+    
+}
+#second {
+    padding: 5rem 0;
+}
+#second .img{
+    position: relative;
+}
+#second .img:hover .hover {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  #second .img .hover span{
+    color: #ffffff;
+    margin-left: 15px;
+  }
+  #second .img .hover a {
+    font-size: 14px;
+    color: white;
+    line-height: 27px;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 70px;
+    outline: none;
+    border: none;
+  }
+  #second .img .hover a::after {
+    content: "";
+    left: 0;
+    bottom: -4px;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+  }
+  #second .img .hover {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    bottom: 40px;
+    left: 40px;
+  }
+#second .img::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #717fe0;
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  #second .img:hover::before {
+    opacity: 1;
+  }
+#second .text{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#second .all{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#second .photo{
+    border: 1px solid #E6E6E6;
+}
+#second .span1{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 31px;
+    color: black;
+    margin-bottom: 15px;
+}
+#products {
+    padding: 4rem 0;
+}
+#products .top h3{
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 70px;
+    font-size: 36px;
+    color: #222222;
+    line-height: 40px;
+}
+#products .bottom-text{
+    display: flex;
+    flex-direction: column;
+}
+#products .bottom-text a{
+    color: #999;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#products .bottom-text span{
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+#products img:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+#products .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-color: #ffffff;
+    transition: .3s;
+}
+#products .btn a{
+    text-decoration: none;
+    color: black;
+}
+#products .imgs{
+    overflow: hidden;
+}
+#products .bottom{
+    position: relative;
+}
+#products .btn:hover{
+    background-color: #222222;
+    border-color: black;
+}
+#products .btn a:hover{
+    color: #ffffff;
+}
